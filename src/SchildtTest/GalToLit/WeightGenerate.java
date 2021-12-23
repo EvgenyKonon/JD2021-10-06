@@ -1,6 +1,5 @@
 package SchildtTest.GalToLit;
-//Сила тяжести на Луне составляет около 17% земной. Напишите программу,
-//которая вычислила бы ваш вес на Луне.
+
 
 import java.util.Scanner;
 
@@ -12,7 +11,7 @@ public class WeightGenerate {
         System.out.println("Enter your weight");
         double weight = scanner.nextDouble();
         getWeight(weight);
-        System.out.println("Your weight ont the Moon are: " + getWeight(weight));
+        System.out.println("Your weight on the Moon are: " + getWeight(weight));
 
 
     }
